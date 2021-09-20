@@ -1,0 +1,127 @@
+/ * Global * /
+: root {
+  --dark-blue :  # 363f5f ;
+}
+
+* {
+  margem :  0 ;
+  preenchimento :  0 ;
+  dimensionamento da caixa : caixa de borda;
+}
+
+corpo {
+  cor de fundo :  # f0f2f5 ;
+  família de fontes :  "Poppins" , sans-serif;
+}
+
+. container {
+  largura :  min ( 90 vw ,  800 px );
+  margem : automático;
+}
+
+/ * Titles * /
+h2 {
+  margem superior :  3,2 rem ;
+  margem inferior :  0,8 rem ;
+  cor :  var ( - azul escuro );
+  peso da fonte : normal;
+}
+
+/ * Cabeçalho * /
+header {
+  cor de fundo :  # 2d4a22 ;
+  preenchimento :  2 rem  0  10 rem ;
+  alinhamento de texto : centro;
+}
+
+# logo {
+  cor :  # ffffff ;
+  peso da fonte :  100 ;
+}
+
+/ * Balanço * /
+# balance {
+  margem superior :  -8 rem ;
+}
+
+# balance  h2 {
+  cor : branco;
+  margem superior :  0 ;
+}
+
+/ * Cards * /
+. card {
+  fundo : branco;
+  preenchimento :  1,5 rem  2 rem ;
+  raio da borda :  0,25 rem ;
+  margem inferior :  2 rem ;
+  cor :  var ( - azul escuro );
+}
+
+. cartão  h3 {
+  peso da fonte : normal;
+  tamanho da fonte :  1 rem ;
+  margem superior :  1 rem ;
+}
+
+. card  p {
+  tamanho da fonte :  2 rem ;
+  altura da linha :  3 rem ;
+}
+
+. cartão . total {
+  plano de fundo :  # 49aa26 ;
+  cor : branco;
+}
+
+/* Mesa */
+# data-table {
+  largura :  100 % ;
+  espaçamento entre bordas :  0  0,5 rem ;
+  cor :  # 969cb3 ;
+}
+
+mesa  thead  tr  th : primeiro filho ,
+table  tbody  tr  td : primeiro filho {
+  raio da borda :  0,25 rem  0  0  0,25 rem ;
+}
+
+mesa  thead  th {
+  fundo : branco;
+  peso da fonte : normal;
+  preenchimento :  1 rem  2 rem ;
+  alinhamento de texto : esquerda;
+}
+
+table  tbody  tr {
+  opacidade :  0,7 ;
+}
+
+table  tbody  tr : hover {
+  opacidade :  1 ;
+}
+
+table  tbody  td {
+  cor de fundo : branco;
+  preenchimento :  1 rem  2 rem ;
+}
+
+td . descrição {
+  cor :  var ( - azul escuro );
+}
+
+td . renda {
+  cor :  # 12a454 ;
+}
+
+td . despesa {
+  cor :  # e92929 ;
+}
+
+/ * Rodapé * /
+rodapé {
+  alinhamento de texto : centro;
+  preenchimento :  4 rem  0  2 rem ;
+  cor :  var ( - azul escuro );
+  opacidade :  0,6 ;
+}
